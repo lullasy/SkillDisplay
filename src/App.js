@@ -136,14 +136,6 @@ export default function App() {
 						/>
 					))}
 				</div>
-				{encounterList.map((encounter, i) => (
-					<RotationContainer
-						key={i}
-						encounterId={i}
-						name={encounter.name}
-						actionList={encounter.rotation}
-					/>
-				))}
 			</div>
 		</>
 	)
